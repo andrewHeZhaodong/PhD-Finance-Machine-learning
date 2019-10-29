@@ -22,3 +22,14 @@ Third year PhD. candidate in finance at Durham University.
 5 years of data analysing and 2-year quant experience specializing in machine learning and equity prediction.Interested in fancy tenchnologies and equipment. Familiar with many kinds of derivatives, stocks and bonds, and devoted to more accurate asset pricing and forecasting methods. 
  
 A cat lover and a good chef (Chinese Cuisine and Sichuan hotpot). 
+
+
+# How to find related reference
+
+Each research filed has it's own trend. Traditional reseach area can directly search the published resourse such as web of science  (www.webofknowledge.com) to creat the personal library. While for some newly estabulised intersection research such as machine learning in finance filed,  papers tend to be in difference area. Publishing papers requies a long time. Researchers would be more willing to published their working paper in some public database such as SSRN and arXiv before it's too late. 
+
+Normally the machine learning in fiance papers can be mostly (not all) found in following places:
+
+1. Working paper in public database: SSRN(more finance papers), arXiv(more computer science paper) and some university owned database(MIT, Chicago booth)
+2. Journal paper:
+    1. Expert System with Applications 
