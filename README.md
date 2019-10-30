@@ -21,7 +21,7 @@ Third-year PhD. candidate in finance at Durham University.
  
 5 years of data analysing and 2-year quant experience specializing in machine learning and equity prediction.Interested in fancy technologies and equipment. Familiar with many kinds of derivatives, stocks and bonds, and devoted to more accurate asset pricing and forecasting methods. 
  
-A cat lover and a good chef (Chinese Cuisine and Sichuan hotpot). If you find we, I would very like to host a special dinner with my personal menue.
+A cat lover and a good chef (Chinese Cuisine and Sichuan hotpot). If you find me, I would very like to trest you a special dinner with my personal menue.
 
 
 # How to find related reference
