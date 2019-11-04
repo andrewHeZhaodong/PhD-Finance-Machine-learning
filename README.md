@@ -39,7 +39,7 @@ Normally the machine learning in fiance papers can be mostly (not all) found in 
     1. Journal of Emperical Finance (3)
     
 
-As papers are not published in the same journal, I would highly recommend using google scholar as the main reference management website. Of course, you may use the EndNote(Offered to Durham university students), Melody(Free) or other software. But google scholar for me is good enough to support every function required. 
+As papers are not published in the same journal, I would highly recommend using google scholar as the main reference management website. Of course, you may use the EndNote (if your university offers the free student version), Melody(Free) or other software. But google scholar for me is good enough to support every function required. 
 
 Two functions are extremely useful in google scholar after you sign in your google account.
 1. 'Labels': A tag-like button just below the search box. You may category your papers with this tool. Can help you manage the big amount of literature.
