@@ -51,7 +51,7 @@ Two functions are extremely useful in google scholar after you sign in your goog
 
 # Choose a editor to write
 
-The most frequently used editor in normal life would be the Word from Microsoft Office. While it's not the best choice for acadimic writing. The only one option for researchers is LaTex which offered the high quality formatting system and makes your papers more professional. You may write your CV, cover letter and even apologies letter to make them proper and formal. The advantage of LaTex is:
+The most frequently used editor in normal life would be the Word from Microsoft Office. While it's not the best choice for acadimic writing. For my point of view, the only one option for researchers is LaTex which offered the high quality formatting system and makes your papers more professional. You may write your CV, cover letter and even apologies letter to make them proper and formal. The advantage of LaTex is:
 1. Easy to manage Bibliography using bib file. The bib file can reuse in the next paper
 1. Once get on the board, you will forget about the fear from adjusting the linewith and font style. 
 1. Abundant of templates and easy to use with one mouse click.
