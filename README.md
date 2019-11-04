@@ -30,7 +30,7 @@ Each research field has a trend. Traditional research area can directly search t
 
 Normally the machine learning in fiance papers can be mostly (not all) found in the following places:
 
-1. Working papers in public database: SSRN(more finance papers), arXiv(more computer science paper) and some university-owned database(MIT, Chicago booth)
+1. Working papers in public database: SSRN(more finance and social science papers), arXiv(more computer science paper) and some university-owned database(MIT, Chicago booth)
 
 2. Journal paper:
     1. Expert System with Applications (3)
