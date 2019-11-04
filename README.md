@@ -41,7 +41,7 @@ Normally the machine learning in fiance papers can be mostly (not all) found in 
 
 As papers are not published in the same journal, I would highly recommend using google scholar as the main reference management website. Of course, you may use the EndNote (if your university offers the free student version), Melody(Free) or other software. But google scholar for me is good enough to support every function required. 
 
-Two functions are extremely useful in google scholar after you sign in your google account.
+Some functions are extremely useful in google scholar after you sign in your google account.
 1. 'Labels': A tag-like button just below the search box. You may category your papers with this tool. Can help you manage the big amount of literature.
 1. 'Related Articles': A button under the title of the paper. It may automatically research all related articles to this topic. The result may include all possible working papers, conference papers and journal papers from many fields in the most popular order. It can make one quickly grasp the recent trend and result of one topic.
 1. 'Cite': A double-quotation-mark-like button. Generate multiple format citations for Bibtex, EndNote, et al. One can export multiple citations for selected papers by using the 'Export' button below the search box. As I don't use EndNote, the Bibtex format is the most used. 
