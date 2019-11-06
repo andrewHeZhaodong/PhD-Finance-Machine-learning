@@ -67,7 +67,7 @@ Since Oct 1st anaconda fully supports the gpu version tensorflow, the installati
 $ lspci | grep -i nvidia
 ```
 
-### Step 1 Clean previous gpu drivers and install latest nVidia Drivers):
+### Step 1. Clean previous gpu drivers and install latest nVidia Drivers):
   - Open terminal and enter :
     ```shell_session
     $ sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -101,22 +101,12 @@ $ lspci | grep -i nvidia
     ```
     You may also find some interesting numbers that can help you track the usage of GPU. Need to be noted that the fresh frequency of this chat is compariably slow. Tracking some very short period peak time may be not observed.
     
-## Set up TensorFlow 2.0 in Anaconda
-  Anaconda as a complete package management tool can easily help us install many package without worrying about the compatibility
+## Step 2. Set up TensorFlow 2.0 in Anaconda
+  Anaconda as a complete package management tool can easily help us install many package without worrying about the compatibility. It's because TensorFlow needs CUDA and cuDNN but the latest version of CUDA or cuDNN may not support the current version of TensorFlow. For example the CUDA 10.1 and 10.2 does not support Tensorflow 2.0. It will make GPU not detected when running codes. 
   
-  - We are using version 10.0 since it is the working CUDA driver with Tensorflow 2.0 without any bugs. You may upgrade in the future but for now, let's stick with it.
-  
+  Installing by Anaconda is just so simple. The steps are:
 ### Step 1 (Installation):
-  - Go to nVidia cuda archive https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=debnetwork and download the installer type: Network
-  - link to the installer : https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
-  - Then use the following commands inside the folder where you have downloaded the installer,
-  ```shell_session
-  $ sudo dpkg -i cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
-  $ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
-  $ sudo apt-get update
-  $ sudo apt-get install cuda-10-0
-  ```
-  - NOTE: Make sure you use "sudo apt-get install cuda-10-0" incase if you have used "sudo apt-get install cuda" , it will insatll cuda-10.1
+
  
 ### Step 2 (Adding PATH):
   - After the installation we have to set the path for the Graphics card to locate the CUDA libraries. open,
