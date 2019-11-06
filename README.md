@@ -117,20 +117,24 @@ $ lspci | grep -i nvidia
     ```shell_session
     $ conda create -n your_envs_name python=3.7
     ```
-  - If successful, check the current environment
+  - If successful, check the current environment. It will lit all available environments in anaconda
   
     ```shell_session
     $ conda info --envs
     ```
    
-  - Activate the newly built environment and install TensorFlow gpu
+  - Activate the newly built environment and install TensorFlow gpu. Check the TensorFlow version which should be 2.0 and the CudaToolKit should have version 10.0. 
   
     ```shell_session
     $ conda activate your_envs_name
     $ conda install tenorflow-gpu
     ```
+  - After installation, you can check the already installed packages by using:
+    ```shell_session
+    $ conda list
+    ```
  
- ### Step 3 (Verifying the installation):
+ ### Step 3. Verifying the installation
   - Run the following code to verify the installation
     ```shell_session
     $ python3
@@ -141,5 +145,20 @@ $ lspci | grep -i nvidia
     ```
   
   It will return True if a GPU device of the requested kind is available.
+  
+ ### Step 4. Some often used packages 
+  The listed packages are what we normally used in both research and industry. I don't give the description as it's easy to google online. Do not install them in the base envs. You have to activate the target virtual environment and run the command within the activated envs. 
+  
+    ```shell_session
+    $ conda activate your_envs_name  /activate your envs first!
+    $ conda install pandas
+    $ conda install scikit-learn
+    $ conda install numba
+    $ conda install matplotlib
+    $ conda install statsmodels
+    $ conda install xlrd
+    $ pip install memory_profiler
+    ```
+  
   
 
