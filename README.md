@@ -149,7 +149,6 @@ $ lspci | grep -i nvidia
  ### Step 4. Some often used packages 
   The listed packages are what we normally used in both research and industry. I don't give the description as it's easy to google online. Do not install them in the base envs. You have to activate the target virtual environment and run the command within the activated envs. 
   
-    ```shell_session
     $ conda activate your_envs_name  /activate your envs first!
     $ conda install pandas
     $ conda install scikit-learn
@@ -158,7 +157,6 @@ $ lspci | grep -i nvidia
     $ conda install statsmodels
     $ conda install xlrd
     $ pip install memory_profiler
-    ```
   
   
 
