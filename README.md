@@ -105,54 +105,32 @@ $ lspci | grep -i nvidia
   Anaconda as a complete package management tool can easily help us install many package without worrying about the compatibility. It's because TensorFlow needs CUDA and cuDNN but the latest version of CUDA or cuDNN may not support the current version of TensorFlow. For example the CUDA 10.1 and 10.2 does not support Tensorflow 2.0. It will make GPU not detected when running codes. 
   
   Installing by Anaconda is just so simple. The steps are:
-### Step 1 (Installation):
+  - Update Anaconda to date
+    ```shell_session
+    $ conda update conda
+    $ conda update conda-build 
+    ```
+   It's necessary to update conda-build. It can give the newest package compatibility otherwise you may have the chance to install TensorFlow 1.14 or lower.
 
- 
-### Step 2 (Adding PATH):
-  - After the installation we have to set the path for the Graphics card to locate the CUDA libraries. open,
-  ```shell_session
-  $ sudo nano ~/.bashrc
-  ```
-  - Enter the following and save the bashrc to set the PATH variables.
-  ```shell_session
-  export PATH=/usr/local/cuda-10.0/bin${PATH:+:$PATH}}
-  export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-  ```
-
-## Installing cuDNN
-
-  - Download the cuDNN from https://developer.nvidia.com/rdp/cudnn-archive
-  - You should have a membership account to download the cuDNN libraries.
-  - After logging in download cuDNN v7.6.0 for CUDA 10.0, Get the Linux tar package.
-    https://developer.nvidia.com/compute/machine-learning/cudnn/secure/7.6.4.38/Production/10.0_20190923/cudnn-10.0-linux-x64-v7.6.4.38.tgz
-  - Go to the folder where the archive got downloaded, in the terminal,
-  ```shell_session
-  $ tar -xzvf cudnn-10.0-linux-x64-v7.6.4.38.tgz
-  ```
-  - Then type the following to move the libraries to the appropriate folders,
-  ```shell_session
-  $ sudo cp cuda/include/cudnn.h /usr/local/cuda/include
-  $ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
-  $ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
-  ```
-
-## Installing pip3 and Tensorflow-2.0-GPU
-
-  - The support for python v2.7 end official from 2020, So it's better if we can stick with python version 3.6
-
-### Step 1 (Installing pip3):
-  - Use the following commend to install pip3 in your PC,
-  ```shell_session
-  $ sudo apt-get install python3-pip
-  $ sudo pip3 --upgrade pip
-  ```
+  - Create a new environment
   
-### Step 2 (Installing Tensorflow):
-  - Now let's install Tensorflow 2.0
-  ```shell_session
-  $ pip3 install tensorflow-gpu==2.0.0
-  ```
-### Step 3 (Verifying the installation):
+    ```shell_session
+    $ conda create -n your_envs_name python=3.7
+    ```
+  - If successful, check the current environment
+  
+    ```shell_session
+    $ conda info --envs
+    ```
+   
+   - Activate the newly built environment and install TensorFlow gpu
+   
+    ```shell_session
+    $ conda activate your_envs_name
+    $ conda install tenorflow-gpu
+    ```
+ 
+ ### Step 3 (Verifying the installation):
   - Run the following inside python3 terminal to verify the installation
   ```shell_session
   $ python3
@@ -164,6 +142,5 @@ $ lspci | grep -i nvidia
   hello, [[4.]]
   >>> exit()
   ```
-### That's it you have successfully Tensorflow-2.0-GPU with CUDA 10.0.
   
 
