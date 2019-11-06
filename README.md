@@ -61,7 +61,7 @@ There are plenty of LaTex editors and what I use is OverLeaf which is a web bros
 
 # Tensorflow gpu 2.0 intallation with anaconda on ubuntu 18.04
 
-Since Oct 1st anaconda fully supports the gpu version tensorflow, the installation of tensorflow 2 with GPU became much traightforward. This guide can give step-by-step guide to help one get your machine set up. You may have to have a nvidia graphics card which support the cuda calculation. The script to check the availability of your GPU is to type:
+Since Oct 1st anaconda fully supports the gpu version tensorflow, the installation of tensorflow 2 with GPU became much traightforward. This guide can give step-by-step guide to help one get your machine set up. You may have to have a nvidia graphics card which support the cuda calculation. The script to check the availability of your GPU is to type in terminal (ctrl+alt+T):
 
 ```shell_session
 $ lspci | grep -i nvidia
