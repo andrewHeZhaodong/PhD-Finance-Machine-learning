@@ -123,24 +123,23 @@ $ lspci | grep -i nvidia
     $ conda info --envs
     ```
    
-   - Activate the newly built environment and install TensorFlow gpu
-   
+  - Activate the newly built environment and install TensorFlow gpu
+  
     ```shell_session
     $ conda activate your_envs_name
     $ conda install tenorflow-gpu
     ```
  
  ### Step 3 (Verifying the installation):
-  - Run the following inside python3 terminal to verify the installation
-  ```shell_session
-  $ python3
-  >>> import tensorflow as tf
-  >>> hello = tf.constant('hello tensorflow')
-  >>> x = [[2.]]
-  >>> print('hello, {}'.format(tf.matmul(x, x)))
-  2019-00-00 16:04:38.589080: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library   libcublas.so.10.0
-  hello, [[4.]]
-  >>> exit()
-  ```
+  - Run the following code to verify the installation
+    ```shell_session
+    $ python3
+    >>> import tensorflow as tf
+    >>> tf.test.is_gpu_available(
+    cuda_only=False,
+    min_cuda_compute_capability=None)
+    ```
+  
+  It will return True if a GPU device of the requested kind is available.
   
 
