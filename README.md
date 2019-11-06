@@ -99,18 +99,20 @@ $ lspci | grep -i nvidia
     +-------------------------------+----------------------+----------------------+
                                                                               
     ```
-    You may also find some interesting numbers that can help you track the usage of GPU. Need to be noted that the fresh frequency of this chat is compariably slow. Tracking some very short period peak time may be not observed.
+    The import info include the Drive version and Cuda version. Don't worry about the cuda version. For my server it's 10.2. But by creating a virtual environment with anaconda, we can have 10.0 version inside of the new environment. 
+    You may also find some interesting figures which track the usage of GPU. It needs to be noted that the refresh frequency of this table is compariably slow. Tracking the performance during very short period can be very hard as they may be not observed.
     
 ## Step 2. Set up TensorFlow 2.0 in Anaconda
-  Anaconda as a complete package management tool can easily help us install many package without worrying about the compatibility. It's because TensorFlow needs CUDA and cuDNN but the latest version of CUDA or cuDNN may not support the current version of TensorFlow. For example the CUDA 10.1 and 10.2 does not support Tensorflow 2.0. It will make GPU not detected when running codes. 
+  Anaconda as a complete package management tool can easily install many package without worrying about the compatibility. It's because TensorFlow needs CUDA and cuDNN but the latest version of CUDA or cuDNN may not support the current version of TensorFlow. For example the CUDA 10.1 and 10.2 does not support Tensorflow 2.0. The comaptibility issue can make GPU not detected by TensorFlow.
   
-  Installing by Anaconda is just so simple. The steps are:
+  Installing TensorFlow by Anaconda is very clear. The first step is to make sure your anaonda is the latest version.
+  
   - Update Anaconda to date
     ```shell_session
     $ conda update conda
     $ conda update conda-build 
     ```
-   It's necessary to update conda-build. It can give the newest package compatibility otherwise you may have the chance to install TensorFlow 1.14 or lower.
+   Updating the conda-build is the key point that can directly influence the version of packages forged from Anaconda Cloud. It gives the newest package compatibility otherwise you may have the chance to install TensorFlow 1.14 or lower.
 
   - Create a new environment
   
@@ -147,9 +149,10 @@ $ lspci | grep -i nvidia
   It will return True if a GPU device of the requested kind is available.
   
  ### Step 4. Some often used packages 
-  The listed packages are what we normally used in both research and industry. I don't give the description as it's easy to google online. Do not install them in the base envs. You have to activate the target virtual environment and run the command within the activated envs. 
+  The listed packages are what we normally used in my research. Most of them are popular for all python users. I don't give the description as it's easy to google them. Do not install them in the base envs. You have to activate the target virtual environment and run the command within the activated envs. It helps once your envs is broken, you can easily remove all envs without re-install the anaconda itself.
   
     $ conda activate your_envs_name  #activate your envs first!
+    
     $ conda install pandas
     $ conda install scikit-learn
     $ conda install numba
