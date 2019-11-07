@@ -49,7 +49,7 @@ Some functions are extremely useful in google scholar after you sign in your goo
 
 
 
-# Choose a editor to write
+# Choose a editor to write the essay
 
 The most frequently used editor in normal life would be the Word from Microsoft Office. While it's not the best choice for acadimic writing. For my point of view, the only one option for researchers is LaTex which offered the high quality formatting system and makes your papers more professional. You may write your CV, cover letter and even apologies letter to make them proper and formal. The advantage of LaTex is:
 1. Easy to manage Bibliography using bib file. The bib file can reuse in the next paper
@@ -58,3 +58,10 @@ The most frequently used editor in normal life would be the Word from Microsoft 
 
 There are plenty of LaTex editors and what I use is OverLeaf which is a web broswer based online editor. Since all data are uploaded and saved on the cloud. As long as you can find a computer with Wifi, you can start to work. Almost all necessary packages are installed already and you will never worried about the computer crash as it will automaticlaly save the documents from time to time. 
 
+
+# The choice of Python IDE
+# Python - A free language (compared with matlab)
+
+Python has became the top programming language recently. Not like traditional C or C++, python is a very high level language where almost all usually used functions are provided by either companies like google or individual contributers. So we have to bear in mind that packages may get wrong especially for some rarely used packages. It's always good to check carefully to make sure the results are correct. The most popular tools for machine learning are TensorFlow (from Google), PyTorch and Theano, and apparently with top research and development ability, TenorFlow is always one of the most convenient tools. In 2019, the TensorFlow 2.0 perfectly merged with Keras which is a straightforward machine learning model packages. Now even a noval people with some basic computer science knowledges can built up his LSTM network in minutes. That's absolutely lower the entry barrier and make Machine learning convenient to more people.
+
+Python mainly has three versions. The old version is 2.7 and the two new version are 3.6 and 3.7. The 2.X version is significant different from 3.X version and it's very out of date as many latest version of packages like pandas and numpy don't officially support the python 2.X. Also the codes from python 2.X may not run successfully on 3.X for the code gramma changes (print). So I would recommend to use at least python 3.6. If you would like to risk some unstable issue (very rare to happen), the 3.7 version may be a better choice. My current version is 3.7 as I believe normally most packages will try to compatible with the newest version python. 
