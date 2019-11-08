@@ -73,14 +73,13 @@ Python mainly has three versions. The old version is 2.7 and the two new version
 
 ## The choice of Python IDE
 
+Mycommendations are using jupyter notebook for making report or tutorial and using PyCharm for real programming.
+
 IDE provides comprehensive facilities to computer programmers for software development, and a proper IDE can make your coding much easier and faster. The most popular IDEs are PyCharm and Jupyter notebook. Jupyter notebook comes from iPython, creating the documents that contain live code, equations, visualizations and narrative text. It's a perfect solution for presenting the project and making the report. 
 
 When it comes to real programming project which more than a hundred functions and .py files, the jupyter notebook becomes not that friendly. PyCharm is a gem in Python Community. I used Visual Studio for C++ programming before, and PyCharm even excels in many perspectives. The professional version of PyCharm is free for all students and it offers the historical tracking records, code duplicates check, time-consuming check et al... It also supports jupyter notebook so that you can create and edit jupyter file inside. The virtual environment is also easy to switch. 
 
 All in all, why not to use PyCharm and make life easier? The JupyterLab may be an alternative, but currently if not for some specific reason, PyCharm is still the best choice. 
-
-So my commendations are: using jupyter notebook for making report or tutorial and using PyCharm for real programming.
-
 
 # Machine learning with Python
 
@@ -109,4 +108,13 @@ We are lucky that most algorithms are provided by [scikit-learn](https://scikit-
 I would recommend using TensorFlow as the primary development tool for Depp Learning. Deep learning has become the most significant model with a great contribution to NLP and Image Recognization. It's a group of special Artificial Neural Network which has more than one hidden layers. Because of the huge amount of computational ability requirement and difficult to implement, much open-source deep-learning library comes up. The top three platforms are TensorFlow (from Google), PyTorch and Theano. Apparently, with top research and development ability, google keep developing and enhancing the TensorFlow and make it as one of the most convenient tools. In 2019, the TensorFlow 2.0 perfectly merged with Keras which is a straightforward machine learning model packages. Now even a beginner with some basic computer science knowledge can set up his LSTM network in minutes. That lowers the entry barrier and make Machine learning convenient to more developers.
 
 
+# Setting up machine learning environment in Windows and Ubuntu
+
+Now it's time to set up the machine learning platform on your machine now. Depending on the Operation system, the instlalling process may changes. But the softwares and packages are identical. 
+
+We need to install Anaconda firstly and set up the virtual environment. Then install the PyCharm and select the virtual environment as the interpreter for all project. The virtual environment will include all must-have packages like tensorflow, scikit-learn, pandas, cuDnn, CudaToolkit et al...
+
+The guide to install anaconda and pycharm can refer to [Guide_to_install_pycharm_and_anaconda](Install_pycharm&anaconda.md)
+
+The guide to set up virtual environment in Ubuntu can refer to [Guide_to_set_up_anaconda](TensorFlow_2_0_gpu_installation_guide_ubuntu.md). The Windows version will come soon. 
 
