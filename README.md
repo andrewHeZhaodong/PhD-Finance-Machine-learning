@@ -70,16 +70,39 @@ Python is very popular in industry, because it's free. Actually Matlab is better
 ## Choose python version 3.X 
 Python mainly has three versions. The old version is 2.7 and the two new version are 3.6 and 3.7. I would recommend to use at least python 3.6. If you would like to risk some unstable issue (very rare to happen), the 3.7 version may be a better choice. My current version is 3.7 as I believe normally most packages will try to compatible with the newest version python. The 2.X version is significant different from 3.X version and it's very out of date as many latest version of packages like pandas and numpy don't officially support the python 2.X. Also the codes from python 2.X may not run successfully on 3.X for the code grammar changes (such as: 'print'). 
 
-## 
-The most popular tools for machine learning are TensorFlow (from Google), PyTorch and Theano, and apparently with top research and development ability, TenorFlow is always one of the most convenient tools. In 2019, the TensorFlow 2.0 perfectly merged with Keras which is a straightforward machine learning model packages. Now even a noval people with some basic computer science knowledges can built up his LSTM network in minutes. That's absolutely lower the entry barrier and make Machine learning convenient to more people.
-
 
 ## The choice of Python IDE
 
 IDE provides comprehensive facilities to computer programmers for software development, and a proper IDE can make your coding much easier and faster. The most popular IDEs are PyCharm and Jupyter notebook. Jupeter notebook comes from iPython, creating the documents that contain live code, equations, visualizations and narrative text. It's a perfect solution for presenting project and making the report. 
 
-When it comes to real programming project which more than a hundred functions and .py files, it becomes not that friendly. PyCharm is a gem in Python Community. I used Visual Studio for C++ programming before, and PyCharm even excels in many perspectives. The professional version of PyCharm is free for all students and it offers the historical tracking records, code duplicates check, time consuming check et al.. It also support jupyter notebook so that you can create and edit jupyter file inside. The virtual environment is also easy to switch. 
+When it comes to real programming project which more than a hundred functions and .py files, the jupyter notebook becomes not that friendly. PyCharm is a gem in Python Community. I used Visual Studio for C++ programming before, and PyCharm even excels in many perspectives. The professional version of PyCharm is free for all students and it offers the historical tracking records, code duplicates check, time consuming check et al.. It also support jupyter notebook so that you can create and edit jupyter file inside. The virtual environment is also easy to switch. 
 
-All in all, why not to use PyCharm and make the life easier?  The jupyterLab maybe a alternative, but currently if not for some specific reason, PyCharm is still the best choice. 
+All in all, why not to use PyCharm and make the life easier? The jupyterLab maybe a alternative, but currently if not for some specific reason, PyCharm is still the best choice. 
+
+So my commendations are: using jupyter notebook for making report or tuturial and using PyCharm for real programming.
+
+
+# Machine learning with Python
+
+Mahicne learning represents a huge groups of algorithms and methodology. We can give three categories in terms of Learning Style which are supervised learning, unsupervied learning and reinforcement learning. The key difference between supervised and unsupervied are if we label the samples. If samples are labelled with a target value and fed into a machine learning model. It must be the supervised learning model. The Reinforcement learning reverse the idea of traditional machine learning. Without minimizing the loss function, it carefully designs a reward function and the model aims to maximize the reward function to get the best performance.
+
+The most commonly used algorithms are:
+
+- Supervised learning
+  - Logistic Regression (Supervised learning – Classification)
+  - Naïve Bayes Classifier Algorithm (Supervised Learning - Classification)
+  - Support Vector Machine Algorithm (Supervised Learning - Classification)
+  - Decision Trees (Supervised Learning – Classification/Regression)
+  - Random Forests (Supervised Learning – Classification/Regression)
+  - Artificial Neural Networks (Supervised Learning – Classification)
+- Unsupervised learning
+  - K Means Clustering Algorithm (Unsupervised Learning - Clustering)
+- Reinforcement learning
+  - Artificial Neural Networks (Reinforcement Learning)
+
+We are lucky that most algorithms are provided by some tools like scikit-learn and TensorFlow. It's not easy to implement some algorithms like neural network and random forest and take the efficiency and user-friendly into consideration. Thses tools are tested by hundred and thousand of users and survive from the time. The [scikit-learn](https://scikit-learn.org/) package offers not only the models but also many data preprocessing and data visualizations tools. It's also a good place to initially start learning the framework of machine learning. 
+
+Deep learning has became the most significant model with great contribution in NLP and Image Recognization. It's actually a group of special Artificial Neural Network which have more than one hidden layers. Because of the huge amount of computational ability requirement and difficuity to inplement, many open-source deep learning library come up. The top three platform are TensorFlow (from Google), PyTorch and Theano. Apparently with top research and development ability, google keep developing and enhancing the TenorFlow and make it as one of the most convenient tools. In 2019, the TensorFlow 2.0 perfectly merged with Keras which is a straightforward machine learning model packages. Now even a beginner with some basic computer science knowledges can set up his LSTM network in minutes. That's absolutely lower the entry barrier and make Machine learning convenient to more developers.
+
 
 
