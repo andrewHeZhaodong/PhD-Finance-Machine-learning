@@ -56,7 +56,7 @@ The most frequently used editor in normal life would be the Word from Microsoft 
 1. Once get on the board, you will forget about the fear of adjusting the linewidth and font style. 
 1. Abundant of templates and easy to use with one mouse click.
 
-There are plenty of LaTex editors and what I use is OverLeaf which is a web browser-based online editor. Since all data are uploaded and saved on the cloud. As long as you can find a computer with Wifi, you can start to work. Almost all necessary packages are installed already and you will never be worried about the computer crash as it will automatically save the documents from time to time. 
+There are plenty of LaTex editors and what I use is [OverLeaf](https://www.overleaf.com/) which is a web browser-based online editor. Since all data are uploaded and saved on the cloud. As long as you can find a computer with Wifi, you can start to work. Almost all necessary packages are installed already and you will never be worried about the computer crash as it will automatically save the documents from time to time.  Some beautiful templetes can be found in [here](https://www.overleaf.com/gallery)
 
 
 # Python - A free language 
