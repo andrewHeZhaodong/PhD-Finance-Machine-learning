@@ -21,7 +21,7 @@ Third-year PhD. candidate in finance at Durham University.
  
 5 years of data analysing and 2-year quant experience specializing in machine learning and equity prediction.Interested in fancy technologies and equipment. Familiar with many kinds of derivatives, stocks and bonds, and devoted to more accurate asset pricing and forecasting methods. 
  
-A cat lover and a good chef (Chinese Cuisine and Sichuan hotpot). If you find me, I would very like to trest you a special dinner with my personal menue.
+A cat lover and a good chef (Chinese Cuisine and Sichuan hotpot). If you find me, I would very like to treat you a special dinner with my menu.
 
 
 # How to find related reference
@@ -49,43 +49,43 @@ Some functions are extremely useful in google scholar after you sign in your goo
 
 
 
-# Choose a editor to write the essay
+# Choose an editor to write the essay
 
-The most frequently used editor in normal life would be the Word from Microsoft Office. While it's not the best choice for acadimic writing. For my point of view, the only one option for researchers is LaTex which offered the high quality formatting system and makes your papers more professional. You may write your CV, cover letter and even apologies letter to make them proper and formal. The advantage of LaTex is:
-1. Easy to manage Bibliography using bib file. The bib file can reuse in the next paper
-1. Once get on the board, you will forget about the fear from adjusting the linewith and font style. 
+The most frequently used editor in normal life would be the Word from Microsoft Office. While it's not the best choice for academic writing. For my point of view, the only option for researchers is LaTex which offered the high-quality formatting system and makes your papers more professional. You may write your CV, cover letter and even apologies letter to make them proper and formal. The advantage of LaTex is:
+1. Easy to manage Bibliography using the bib file. The bib file can reuse in the next paper
+1. Once get on the board, you will forget about the fear of adjusting the linewidth and font style. 
 1. Abundant of templates and easy to use with one mouse click.
 
-There are plenty of LaTex editors and what I use is OverLeaf which is a web broswer based online editor. Since all data are uploaded and saved on the cloud. As long as you can find a computer with Wifi, you can start to work. Almost all necessary packages are installed already and you will never worried about the computer crash as it will automaticlaly save the documents from time to time. 
+There are plenty of LaTex editors and what I use is OverLeaf which is a web browser-based online editor. Since all data are uploaded and saved on the cloud. As long as you can find a computer with Wifi, you can start to work. Almost all necessary packages are installed already and you will never be worried about the computer crash as it will automatically save the documents from time to time. 
 
 
 # Python - A free language 
 
 ## Introduction of Python
-Python has became the top programming language recently. Not like traditional C or C++, python is a very high level language where almost all usually used functions are provided by either companies like google or individual contributers. So we have to bear in mind that packages may get wrong especially for some rarely used packages. It's always good to check carefully to make sure the results are correct. 
+Python has become the top programming language recently. Not like traditional C or C++, Python is a very high-level language where almost all usually used functions are provided by either company like google or individual contributors. So we have to bear in mind that packages may get wrong, especially for some rarely used packages. It's always good to check carefully to make sure the results are correct. 
 
-Python is very popular in industry, because it's free. Actually Matlab is better in terms of efficiency and well-designed packages. But the expense is just too high for some start-up companies. Learning python also improve the competitiveness in the job market.
+Python is very popular in the industry because it's free. Matlab is better in terms of efficiency and well-designed packages. But the expense is just too high for some start-up companies. Learning python also improve competitiveness in the job market.
 
 
 ## Choose python version 3.X 
-Python mainly has three versions. The old version is 2.7 and the two new version are 3.6 and 3.7. I would recommend to use at least python 3.6. If you would like to risk some unstable issue (very rare to happen), the 3.7 version may be a better choice. My current version is 3.7 as I believe normally most packages will try to compatible with the newest version python. The 2.X version is significant different from 3.X version and it's very out of date as many latest version of packages like pandas and numpy don't officially support the python 2.X. Also the codes from python 2.X may not run successfully on 3.X for the code grammar changes (such as: 'print'). 
+Python mainly has three versions. The old version is 2.7 and the two new version are 3.6 and 3.7. I would recommend using at least python 3.6. If you would like to risk some unstable issue (very rare to happen), the 3.7 version may be a better choice. My current version is 3.7 as I believe normally most packages will try to compatible with the newest version python. The 2.X version is significantly different from 3.X version and it's very out of date as many latest version of packages like pandas and Numpy doesn't officially support the python 2.X. Also, the codes from python 2.X may not run successfully on 3.X for the code grammar changes (such as: 'print'). 
 
 
 ## The choice of Python IDE
 
-IDE provides comprehensive facilities to computer programmers for software development, and a proper IDE can make your coding much easier and faster. The most popular IDEs are PyCharm and Jupyter notebook. Jupeter notebook comes from iPython, creating the documents that contain live code, equations, visualizations and narrative text. It's a perfect solution for presenting project and making the report. 
+IDE provides comprehensive facilities to computer programmers for software development, and a proper IDE can make your coding much easier and faster. The most popular IDEs are PyCharm and Jupyter notebook. Jupyter notebook comes from iPython, creating the documents that contain live code, equations, visualizations and narrative text. It's a perfect solution for presenting the project and making the report. 
 
-When it comes to real programming project which more than a hundred functions and .py files, the jupyter notebook becomes not that friendly. PyCharm is a gem in Python Community. I used Visual Studio for C++ programming before, and PyCharm even excels in many perspectives. The professional version of PyCharm is free for all students and it offers the historical tracking records, code duplicates check, time consuming check et al.. It also support jupyter notebook so that you can create and edit jupyter file inside. The virtual environment is also easy to switch. 
+When it comes to real programming project which more than a hundred functions and .py files, the jupyter notebook becomes not that friendly. PyCharm is a gem in Python Community. I used Visual Studio for C++ programming before, and PyCharm even excels in many perspectives. The professional version of PyCharm is free for all students and it offers the historical tracking records, code duplicates check, time-consuming check et al... It also supports jupyter notebook so that you can create and edit jupyter file inside. The virtual environment is also easy to switch. 
 
-All in all, why not to use PyCharm and make the life easier? The jupyterLab maybe a alternative, but currently if not for some specific reason, PyCharm is still the best choice. 
+All in all, why not to use PyCharm and make life easier? The JupyterLab may be an alternative, but currently if not for some specific reason, PyCharm is still the best choice. 
 
-So my commendations are: using jupyter notebook for making report or tuturial and using PyCharm for real programming.
+So my commendations are: using jupyter notebook for making report or tutorial and using PyCharm for real programming.
 
 
 # Machine learning with Python
 
-## Introduction of Machine learning algorithm
-Mahicne learning represents a huge groups of algorithms and methodology. We can give three categories in terms of Learning Style which are supervised learning, unsupervied learning and reinforcement learning. The key difference between supervised and unsupervied are if we label the samples. If samples are labelled with a target value and fed into a machine learning model. It must be the supervised learning model. The Reinforcement learning reverse the idea of traditional machine learning. Without minimizing the loss function, it carefully designs a reward function and the model aims to maximize the reward function to get the best performance. 
+## Introduction of the Machine learning algorithm
+Machine learning represents huge groups of algorithms and methodology. We can give three categories in terms of Learning Style which are supervised learning, unsupervised learning and reinforcement learning. The key difference between supervised and unsupervised is if we label the samples. If samples are labelled with a target value and fed into a machine learning model. It must be a supervised learning model. Reinforcement learning reverses the idea of traditional machine learning. Without minimizing the loss function, it carefully designs a reward function and the model aims to maximize the reward function to get the best performance. 
 
 The most commonly used algorithms are:
 
@@ -101,12 +101,12 @@ The most commonly used algorithms are:
 - Reinforcement learning
   - Artificial Neural Networks (Reinforcement Learning)
 
-Our research mainly focus on the Supervised and Unsupervised learning as there are still many potantical topics. The Reinforcement learning is leading by UC Berkley and we are still waiting for a mature tool so that not computer science background researchers can more easily get involved to this powerful tool. 
+Our research mainly focuses on Supervised and Unsupervised learning as there are still many potential topics. The Reinforcement learning is leading by UC Berkley and we are still waiting for a mature tool so that no computer science background researchers can more easily get involved in this powerful tool. 
 
-## Scilit-learn and TensorFlow
-We are lucky that most algorithms are provided by some tools like [scikit-learn](https://scikit-learn.org/) and [TensorFlow](https://www.tensorflow.org/). It's not easy to implement machine learning algorithms like neural network and random forest,  meanwhile take both the efficiency and user-friendly into consideration. Thses tools are tested by hundred and thousand of users and survive from the time. The scikit-learn package offers not only the models but also many data preprocessing and data visualizations tools. It's also a good place to initially start learning the framework of machine learning. 
+## Scikit-learn and TensorFlow
+We are lucky that most algorithms are provided by some tools like [scikit-learn](https://scikit-learn.org/) and [TensorFlow](https://www.tensorflow.org/). It's not easy to implement machine learning algorithms like neural network and random forest,  meanwhile, take both the efficiency and user-friendly into consideration. These tools are tested by hundreds and thousands of users and survive from the time. The scikit-learn package offers not only the models but also many data preprocessing and data visualizations tools. It's also a good place to initially start learning the framework of machine learning. 
 
-I would recommend to use TensorFlow as the primary development tool for Depp Learning. Deep learning has became the most significant model with great contribution in NLP and Image Recognization. It's actually a group of special Artificial Neural Network which have more than one hidden layers. Because of the huge amount of computational ability requirement and difficuity to inplement, many open-source deep learning library come up. The top three platform are TensorFlow (from Google), PyTorch and Theano. Apparently with top research and development ability, google keep developing and enhancing the TenorFlow and make it as one of the most convenient tools. In 2019, the TensorFlow 2.0 perfectly merged with Keras which is a straightforward machine learning model packages. Now even a beginner with some basic computer science knowledges can set up his LSTM network in minutes. That absolutely lower the entry barrier and make Machine learning convenient to more developers.
+I would recommend using TensorFlow as the primary development tool for Depp Learning. Deep learning has become the most significant model with a great contribution to NLP and Image Recognization. It's a group of special Artificial Neural Network which has more than one hidden layers. Because of the huge amount of computational ability requirement and difficult to implement, much open-source deep-learning library comes up. The top three platforms are TensorFlow (from Google), PyTorch and Theano. Apparently, with top research and development ability, google keep developing and enhancing the TensorFlow and make it as one of the most convenient tools. In 2019, the TensorFlow 2.0 perfectly merged with Keras which is a straightforward machine learning model packages. Now even a beginner with some basic computer science knowledge can set up his LSTM network in minutes. That lowers the entry barrier and make Machine learning convenient to more developers.
 
 
 
