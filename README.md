@@ -56,7 +56,7 @@ The most frequently used editor in normal life would be the Word from Microsoft 
 1. Once get on the board, you will forget about the fear of adjusting the linewidth and font style. 
 1. Abundant of templates and easy to use with one mouse click.
 
-There are plenty of LaTex editors and what I use is [OverLeaf](https://www.overleaf.com/) which is a web browser-based online editor. Since all data are uploaded and saved on the cloud. As long as you can find a computer with Wifi, you can start to work. Almost all necessary packages are installed already and you will never be worried about the computer crash as it will automatically save the documents from time to time.  Some beautiful templetes can be found in [here](https://www.overleaf.com/gallery)
+There are plenty of LaTex editors and what I use is [**OverLeaf**](https://www.overleaf.com/) which is a web browser-based online editor. Since all data are uploaded and saved on the cloud. As long as you can find a computer with Wifi, you can start to work. Almost all necessary packages are installed already and you will never be worried about the computer crash as it will automatically save the documents from time to time.  Some beautiful templetes can be found in [**here**](https://www.overleaf.com/gallery)
 
 
 # Python - A free language 
@@ -103,7 +103,7 @@ The most commonly used algorithms are:
 Our research mainly focuses on Supervised and Unsupervised learning as there are still many potential topics. The Reinforcement learning is leading by UC Berkley and we are still waiting for a mature tool so that no computer science background researchers can more easily get involved in this powerful tool. 
 
 ## Scikit-learn and TensorFlow
-We are lucky that most algorithms are provided by [scikit-learn](https://scikit-learn.org/) and [TensorFlow](https://www.tensorflow.org/). It's not easy to implement machine learning algorithms like neural network and random forest as well as taking the efficiency and user-friendly into consideration. These tools are tested by hundreds and thousands of users and survive from the time. The scikit-learn package offers not only the models but also many data preprocessing and data visualizations tools. It's also a good place to initially start learning the framework of machine learning. 
+We are lucky that most algorithms are provided by [**scikit-learn**](https://scikit-learn.org/) and [**TensorFlow**](https://www.tensorflow.org/). It's not easy to implement machine learning algorithms like neural network and random forest as well as taking the efficiency and user-friendly into consideration. These tools are tested by hundreds and thousands of users and survive from the time. The scikit-learn package offers not only the models but also many data preprocessing and data visualizations tools. It's also a good place to initially start learning the framework of machine learning. 
 
 I would recommend using TensorFlow as the primary development tool for Depp Learning. Deep learning has become the most significant model with a great contribution to NLP and Image Recognization. It's a group of special Artificial Neural Network which has more than one hidden layers. Because of the huge amount of computational ability requirement and difficult to implement, much open-source deep-learning library comes up. The top three platforms are TensorFlow (from Google), PyTorch and Theano. Apparently, with top research and development ability, google keep developing and enhancing the TensorFlow and make it as one of the most convenient tools. In 2019, the TensorFlow 2.0 perfectly merged with Keras which is a straightforward machine learning model packages. Now even a beginner with some basic computer science knowledge can set up his LSTM network in minutes. That lowers the entry barrier and make Machine learning convenient to more developers.
 
@@ -114,7 +114,7 @@ Now it's time to set up the machine learning platform on your machine now. Depen
 
 We need to install Anaconda firstly and set up the virtual environment. Then install the PyCharm and select the virtual environment as the interpreter for all project. The virtual environment will include all must-have packages like tensorflow, scikit-learn, pandas, cuDnn, CudaToolkit et al...
 
-The guide to install anaconda and pycharm can refer to [Guide_to_install_pycharm_and_anaconda](Install_pycharm&anaconda.md)
+The guide to install anaconda and pycharm can refer to [**Guide_to_install_pycharm_and_anaconda**](Install_pycharm&anaconda.md)
 
-The guide to set up virtual environment in Ubuntu can refer to [Guide_to_set_up_anaconda](TensorFlow_2_0_gpu_installation_guide_ubuntu.md). The Windows version will come soon. 
+The guide to set up virtual environment in Ubuntu can refer to [**Guide_to_set_up_anaconda**](TensorFlow_2_0_gpu_installation_guide_ubuntu.md). The Windows version will come soon. 
 
