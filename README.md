@@ -118,5 +118,7 @@ The guide to install anaconda and pycharm in Windows can refer to [**Guide_to_in
 
 The guide to install anaconda and pycharm in Ubuntu 18.04 can refer to [**How To Install Anaconda on Ubuntu 18.04**](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
 
-The guide to set up virtual environment in Ubuntu can refer to [**Guide_to_set_up_anaconda**](TensorFlow_2_0_gpu_installation_guide_ubuntu.md). The Windows version will come soon. 
+The guide to set up virtual environment in Ubuntu can refer to [**Guide_to_set_up_anaconda**](TensorFlow_2_0_gpu_installation_guide_ubuntu.md). 
+
+The Windows version will come soon. 
 
