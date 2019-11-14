@@ -119,14 +119,17 @@ Now you select the python.exe file and click OK. Now you should be able to use y
 
 4. Finally, it is important to note that PyCharm is an IDE written in Java. This means that Java 8 is required to run IntelliJ IDEA starting from version 2016 on all the supported platforms. Luckily, PyCharm comes bundled with a JRE on Windows and Mac. If you don’t have Java 8, please see this link to download Java 8. Please let me know if you run into Java issues.
 
-## Part 4: Upgrade packages in pycharm
-
-1. Open Project Interpreter page 
-
-2. Use Conda Package Manager toggle appears in the packages area toolbar
-
-3. In the list of the packages, select the package to be upgraded.
-
-4. Click Upgrade ( on the right hand). Note that clicking Apply doesn't lead to package upgrading. This button only utilizes all performed package changes.
-
-5.You can upgrade several packages at once. Hold Cmd (macOS) or Ctrl on (Unix or Windows), left-click to select several items in the list of packages, and then click Upgrade.
+## Part 4: Upgrade packages from pycharm
+  Two methods are applied to update python packages. One is directly from anaconda prompt or anaconda navigator. The other is from Pycharm. 
+  
+  If you updating packages from anaconda, you need to:
+  
+    1. Open Project Interpreter page 
+    
+    2. Use Conda Package Manager toggle appears in the packages area toolbar
+    
+    3. In the list of the packages, select the package to be upgraded.
+    
+    4. Click Upgrade ( on the right hand). Note that clicking Apply doesn't lead to package upgrading. This button only utilizes all performed package changes.
+    
+    5. You can upgrade several packages at once. Hold Cmd (macOS) or Ctrl on (Unix or Windows), left-click to select several items in the list of packages, and then click Upgrade.
