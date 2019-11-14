@@ -58,7 +58,12 @@ The most frequently used editor in normal life would be the Word from Microsoft 
 
 There are plenty of LaTex editors and what I use is [**OverLeaf**](https://www.overleaf.com/) which is a web browser-based online editor. Since all data are uploaded and saved on the cloud. As long as you can find a computer with Wifi, you can start to work. Almost all necessary packages are installed already and you will never be worried about the computer crash as it will automatically save the documents from time to time.  Some beautiful templetes can be found in [**here**](https://www.overleaf.com/gallery)
 
+# Some useful tools in writing
 
+## [Mathpix](https://mathpix.com/)
+  Latex is very straightward for use cases except typing in math equations. The complex equations would take very long time to type correctly. Mathpix can extract LaTeX from PDFs or handwritten notes in seconds. By selecting and screen cutting the desired equations, it can automatically generate the LaTex code. Highly recoommend to save plenty of times. Linux, windows and mobile OS are supported.
+  
+  
 # Python - A free language 
 
 ## Introduction of Python
